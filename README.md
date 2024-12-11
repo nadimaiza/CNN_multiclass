@@ -39,7 +39,19 @@ Advanced CNN: Incorporates more advanced techniques such as batch normalization 
 
 
 
-Setup and Installation
+
+
+
+
+
+
+SETUP AND INSTALLATION:
+
+
+
+
+
+
 
 
 To replicate this project, follow these steps:
