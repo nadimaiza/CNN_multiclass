@@ -28,12 +28,20 @@ Model Architectures
 The project explores three different CNN architectures with varying complexities, including:
 
 Baseline CNN: A simple architecture to establish a performance baseline.
+
+
+
 Improved CNN: Includes additional convolutional layers and dropout for better generalization.
+
+
+
 Advanced CNN: Incorporates more advanced techniques such as batch normalization and additional layers.
 
 
 
 Setup and Installation
+
+
 To replicate this project, follow these steps:
 
 Clone the repository:
@@ -54,15 +62,18 @@ Key Steps:
 Data Preparation:
 
 Normalization and augmentation.
+
 Splitting the data into training, validation, and test sets.
 Training:
 
 Models trained for multiple epochs.
-Use of optimizers (e.g., Adam) and loss functions (e.g., CrossEntropyLoss).
+
+Use of optimizers torch.optim.SGD and loss functions nn.CrossEntropyLoss().
 Monitoring and visualizing training/validation loss.
 Evaluation:
 
 Performance measured using accuracy.
+
 Confusion matrix and classification report for detailed analysis.
 Commands:
 Run the notebook to train and evaluate all three CNN setups:
@@ -74,14 +85,10 @@ Results
 The best-performing model achieved an accuracy of 88% on the test set. This demonstrates the potential of CNNs for fashion image classification.
 
 Model	Test Accuracy
-Baseline CNN	81%
-Improved CNN	85%
+Baseline CNN	83%
+Improved CNN	11%
 Advanced CNN	88%
-Future Work
-Experiment with more advanced architectures like ResNet or EfficientNet.
-Perform hyperparameter tuning using techniques such as grid search or Bayesian optimization.
-Incorporate techniques like transfer learning to further improve accuracy.
-Acknowledgments
+
 Special thanks to:
 
 PyTorch for the deep learning framework.
